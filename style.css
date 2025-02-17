@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #27282D;
+}
+
+section{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formulário{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+.form{
+    margin: 2px 0px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+[type=submit]{
+    background-color: rgb(98, 16, 174);
+    color: white;
+    cursor: pointer;
+    
+}
+[type=submit]:hover{
+    background-color: rgb(51, 0, 99);
+    padding: 12px 10px;
+    transition-duration: 1ms;
+}
